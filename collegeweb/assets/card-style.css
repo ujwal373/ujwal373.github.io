@@ -1,0 +1,54 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+.main{
+      margin: 30px;
+      padding: 30px;
+}
+.cards{
+      width: 35%;
+      height: 30%;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 90px;
+}
+.column1 {
+      float: left;
+      width: 30%;
+      padding: 10px;
+      /*height: 250px; Should be removed. Only for demonstration */
+      /*background: grey;*/
+}
+.image img{
+      height: 100%;
+      width: 100%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      display: inline-block;
+      padding-top: 10px;
+}
+.title{
+      display: inline-block;
+      position: relative;
+}
+.des{
+      display: flex;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+}
+.btn{
+      display: flex;      
+}
+button{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding:10px;
+}
+button:hover{
+      background-color: black;
+      color: white;
+      transition: .5s;
+      cursor: pointer;
+}
